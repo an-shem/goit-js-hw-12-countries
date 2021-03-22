@@ -20,7 +20,7 @@ function onInput(e) {
         title: 'ОШИБКА!',
         text: 'Нет такой страны',
         animateSpeed: 'normal',
-        delay: 2000,
+        delay: 1500,
       });
     } else {
       arrayHandler(arrayCountries, boxDataRef);

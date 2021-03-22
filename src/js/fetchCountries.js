@@ -1,7 +1,7 @@
-const URL = ' https://restcountries.eu/rest/v2/name/';
+const URL = ' https://restcountries.eu/rest/v2/';
 
 function fetchCountries(searchQuery) {
-  return fetch(`${URL}${searchQuery}`).then(response => response.json());
+  return fetch(`${URL}name/${searchQuery}`).then(response => response.json());
 }
 
 export default fetchCountries;

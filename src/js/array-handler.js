@@ -15,7 +15,7 @@ function arrayHandler(array, boxDataRef) {
       title: 'ОШИБКА!',
       text: 'Сделайте запрос более специфичным.',
       animateSpeed: 'normal',
-      delay: 2000,
+      delay: 1500,
     });
   }
 
