@@ -1,18 +1,18 @@
-.wrapper {
+/* .wrapper {
   text-align: center;
   width: 500px;
   height: 500px;
   border: 1px solid #000000;
   background-color: rgb(163, 154, 154);
-}
+} */
 
 .input-search {
   min-width: 200px;
   margin: 30px;
 }
-
+/* 
 .search-display {
   width: 100%;
   height: 300px;
   background-color: #fff;
-}
+} */
