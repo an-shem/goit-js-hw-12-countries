@@ -12,10 +12,10 @@ defaultModules.set(PNotifyMobile, {});
 function arrayHandler(array, boxDataRef) {
   if (array.length > 10) {
     error({
-      title: 'ОШИБКА!',
-      text: 'Сделайте запрос более специфичным.',
+      title: 'ERROR!',
+      text: 'Refine your request.',
       animateSpeed: 'normal',
-      delay: 1500,
+      delay: 2000,
     });
   }
 

@@ -17,10 +17,10 @@ function onInput(e) {
   fetchCountries(searchQuery).then(arrayCountries => {
     if (arrayCountries.status) {
       error({
-        title: 'ОШИБКА!',
-        text: 'Нет такой страны',
+        title: 'ERROR!',
+        text: 'Invalid country name.',
         animateSpeed: 'normal',
-        delay: 1500,
+        delay: 2000,
       });
     } else {
       arrayHandler(arrayCountries, boxDataRef);
